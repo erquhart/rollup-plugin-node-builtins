@@ -65,7 +65,7 @@ Not all included modules rollup equally, streams (and by extension anything that
 config for using this with something simple like events or querystring
 
 ```js
-import builtins from 'rollup-plugin-node-builtins';
+import builtins from '@joseph184/rollup-plugin-node-builtins';
 rollup({
   entry: 'main.js',
   plugins: [
