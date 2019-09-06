@@ -1,10 +1,12 @@
-@joseph184/rollup-plugin-node-builtins
+@erquhart/rollup-plugin-node-builtins
 ===
 
 NOTE: this is [rollup-plugin-node-builtins](https://www.npmjs.com/package/rollup-plugin-node-builtins) with updated dependencies to fix vulnerabilities
 
+Security update commits from @joseph184.
+
 ```
-npm install --save-dev @joseph184/rollup-plugin-node-builtins
+npm install --save-dev @erquhart/rollup-plugin-node-builtins
 ```
 
 Allows the node builtins to be `require`d/`import`ed. Doing so gives the proper shims to support modules that were designed for Browserify, some modules require [rollup-plugin-node-globals](https://github.com/calvinmetcalf/rollup-plugin-node-globals).
@@ -65,7 +67,7 @@ Not all included modules rollup equally, streams (and by extension anything that
 config for using this with something simple like events or querystring
 
 ```js
-import builtins from '@joseph184/rollup-plugin-node-builtins';
+import builtins from '@erquhart/rollup-plugin-node-builtins';
 rollup({
   entry: 'main.js',
   plugins: [

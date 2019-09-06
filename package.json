@@ -1,5 +1,5 @@
 {
-  "name": "@joseph184/rollup-plugin-node-builtins",
+  "name": "@erquhart/rollup-plugin-node-builtins",
   "version": "2.1.4",
   "description": "use node builtins in browser with rollup",
   "main": "dist/rollup-plugin-node-builtins.cjs.js",
@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@joseph184/browserify-fs": "^1.0.1",
+    "@erquhart/browserify-fs": "^1.0.2",
     "buffer-es6": "^4.9.2",
     "crypto-browserify": "^3.11.0",
     "process-es6": "^0.11.2"
